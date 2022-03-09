@@ -1,0 +1,193 @@
+body {
+  color: #3c414b;
+  direction: rtl;
+  font-family: vazir;
+  background: #F2F4F8;
+  font-size: 13px;
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+}
+body,
+html {
+  height: 100% !important;
+  width: 100%;
+}
+.w100 {
+  width: 100% !important;
+}
+a.black {
+  color: #000;
+}
+a {
+  color: #3c414b;
+  text-decoration: none;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+}
+a:hover {
+  color: #000000;
+}
+a.black:hover,
+a:hover {
+  color: #c70000;
+}
+label {
+  font-family: vazir;
+}
+textarea,
+select,
+input,
+button {
+  border: none;
+  border: 2px solid #8d8d8d;
+  border-radius: 10px;
+  background: #fff;
+  text-align: center!important;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+  outline: none;
+  padding: 5px 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+textarea {
+  line-height: 20px;
+  padding: 15px 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+}
+button {
+  cursor: pointer;
+  width: 93px;
+  height: 35px;
+  line-height: 35px;
+  float: right;
+  font-size: 12px;
+  color: #fff;
+  background: #55b650;
+}
+button:hover {
+  background: #42953e;
+}
+p {
+  margin: 0 0 10px;
+  font-size: 13px;
+  line-height: 26px;
+  text-align: justify;
+  color: #3c414b;
+  font-weight: 300;
+}
+.input {
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.input label {
+  line-height: 30px;
+  float: right;
+  display: block;
+  width: 90px;
+}
+.input button {
+  margin-right: 90px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 15px;
+  color: #000000;
+  font-weight: 300;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+}
+label {
+  color: #000;
+}
+ul {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+}
+select,
+textarea,
+button,
+input {
+  font-size: 13px;
+  font-family: vazir !important;
+  font-weight: 300;
+}
+option {
+  font-family: vazir;
+}
+@-webkit-keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 30%, 0);
+            transform: translate3d(0, 30%, 0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 30%, 0);
+            transform: translate3d(0, 30%, 0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+@font-face {
+  font-family: vazir;
+  src: url('../fonts/Vazir.eot');
+  src: url('../fonts/Vazir.eot?#iefix') format('embedded-opentype'), url('../fonts/Vazir.woff') format('woff'), url('../fonts/Vazir.ttf') format('truetype'), url('../fonts/Vazir.svg#iransans') format('svg');
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: vazir;
+  src: url('../fonts/Vazir-Bold.eot');
+  src: url('../fonts/Vazir-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/Vazir-Bold.woff') format('woff'), url('../fonts/Vazir-Bold.ttf') format('truetype'), url('../fonts/Vazir-Bold.svg#iransans') format('svg');
+  font-style: normal;
+  font-weight: bold;
+}
+@font-face {
+  font-family: vazir;
+  src: url('../fonts/Vazir-FD.eot');
+  src: url('../fonts/Vazir-FD.eot?#iefix') format('embedded-opentype'), url('../fonts/Vazir-FD.woff') format('woff'), url('../fonts/Vazir-FD.ttf') format('truetype'), url('../fonts/Vazir-FD.svg#iransans') format('svg');
+  font-style: normal;
+  font-weight: 300;
+}
+@font-face {
+  font-family: vazir;
+  src: url('../fonts/Vazir-Light-FD.eot');
+  src: url('../fonts/Vazir-Light-FD.eot?#iefix') format('embedded-opentype'), url('../fonts/Vazir-Light-FD.woff') format('woff'), url('../fonts/Vazir-Light-FD.ttf') format('truetype'), url('../fonts/Vazir-Light-FD.svg#iransans') format('svg');
+  font-style: normal;
+  font-weight: 200;
+}
+input,
+input::-webkit-input-placeholder {
+  font-size: 13px;
+}
+::-webkit-input-placeholder {
+  color: #8e8c8c;
+}
+::-moz-placeholder {
+  color: #8e8c8c;
+}
+:-ms-input-placeholder {
+  color: #8e8c8c;
+}
+:-o-input-placeholder {
+  color: #8e8c8c;
+}

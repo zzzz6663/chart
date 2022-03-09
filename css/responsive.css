@@ -1,0 +1,99 @@
+@media screen and (max-width: 1300px) {
+  #header_head {
+    height: auto;
+  }
+  #header_head * {
+    text-align: center!important;
+  }
+  #header_head .left,
+  #header_head .right {
+    line-height: 80px!important;
+  }
+  .sidebar {
+    padding: 20px  20px!important;
+    -webkit-box-sizing: border-box !important;
+            box-sizing: border-box !important;
+    height: auto!important;
+  }
+  .sidebar ul {
+    margin: 0!important;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .myrequest-header h1 {
+    display: block!important;
+    text-align: center!important;
+    margin: 0;
+  }
+  .myrequest-header > div {
+    display: block!important;
+    text-align: center!important;
+  }
+  .myrequest-header > div * {
+    display: inline-block !important;
+  }
+  .myrequest-header > div select {
+    display: block!important;
+    margin: 10px auto;
+  }
+  .admin-box .admin-cover.eurobuts * {
+    display: block;
+    margin: 10px auto;
+    width: 100%!important;
+  }
+  ul.circle li {
+    border-bottom: 3px solid #e1e1e1;
+    margin-bottom: 30px;
+  }
+  .sect {
+    display: block!important;
+  }
+}
+@media screen and (max-width: 900px) {
+  .boxybox * {
+    text-align: center!important;
+  }
+  .acssec li {
+    width: 100% !important;
+  }
+  .servpart .selectserv select {
+    margin-bottom: 20px;
+  }
+  #index #header .banner p {
+    padding: 0!important;
+  }
+}
+@media screen and (max-width: 720px) {
+  #index #com_table_rate {
+    overflow: auto;
+  }
+  #index #com_table_rate table {
+    min-width: 720px!important;
+  }
+  .add_new p {
+    display: none!important;
+  }
+  .add_new #add_new_com_unit_fa,
+  .add_new #add_new_com_fa {
+    position: static!important;
+  }
+  .left_s,
+  .right_s {
+    float: none!important;
+    text-align: center!important;
+    width: 100%!important;
+    margin-bottom: 20px;
+  }
+  .left_s > div,
+  .right_s > div {
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 600px) {
+  #main {
+    padding: 30px 10px!important ;
+  }
+  #main .container {
+    margin: 0 6px;
+  }
+}

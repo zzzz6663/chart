@@ -1,0 +1,22 @@
+Options -Indexes
+#
+#
+#
+RewriteEngine On
+RewriteBase /chart/
+#RewriteCond %{HTTPS} !=on
+#RewriteRule ^.*$ https://%{SERVER_NAME}%{REQUEST_URI} [R,L]
+#RewriteCond %{REQUEST_URI} .*
+RewriteCond %{REQUEST_URI} !(\.ttf|\.woff2|\.eot|\.css.map|\.woff|\.css|\.js|\.png|\.jpg|\.pdf|\.docx|\.jpeg|\.gif|robots\.txt)$ [NC]
+RewriteRule .* index.php [L]
+<IfModule mod_php5.c>
+    #Session timeout
+    php_value session.cookie_lifetime 900
+    php_value session.gc_maxlifetime 900
+</IfModule>
+<IfModule mod_headers.c>
+<FilesMatch "\.(ttf|ttc|otf|eot|woff|woff2|font.css|css|js)$">
+Header set Access-Control-Allow-Origin "*"
+</FilesMatch>
+</IfModule>
+

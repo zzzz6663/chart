@@ -1,0 +1,427 @@
+@import "all.min.css";
+@import "normalize.min.css";
+@import "uploadfile.css";
+@import "jquery-ui.min.css";
+@import "jquery-ui.structure.min.css";
+@import "jquery-ui.theme.min.css";
+@import "jquery.modal.css";
+@import "persianDatepicker-default.css";
+@import "grids.css";
+@import "jquery.loadingModal.min.css";
+/**
+ * overhang.min.css
+ * Paul Krishnamurthy 2016
+ *
+ * https://paulkr.com
+ * paul@paulkr.com
+ */
+@import "select2.css";
+@import "animate.css";
+@import "iziModal.min.css";
+@import "uploadfile.css";
+@import "jquery.datetimepicker.css";
+@import "tooltipster.bundle.min.css";
+tr.border_bottom td {
+  border-bottom:1pt solid black;
+}
+.overhang,
+.overhang-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.overhang,
+.overhang-prompt-field {
+  font-family: iransans, sans-serif;
+}
+.overhang-close,
+.overhang-message strong {
+  font-weight: 700;
+}
+.overhang {
+  display: none;
+  width: 100%;
+  z-index: 9999;
+  padding: 15px 2px;
+  text-align: center;
+  box-sizing: border-box;
+}
+.overhang-message {
+  color: #FFF;
+  font-size: 20px;
+  font-weight: bold;
+}
+.overhang-message a {
+  color: inherit;
+}
+.overhang-message a:hover {
+  text-decoration: none;
+}
+.overhang-overlay {
+  display: block;
+  background-color: #000;
+  opacity: 0.6;
+  bottom: 0;
+  z-index: 9998;
+}
+.overhang-prompt-field {
+  height: 30px;
+  width: 250px;
+  border-radius: 5px;
+  border: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  bottom: 7px;
+  position: relative;
+  padding-left: 3px;
+  padding-right: 3px;
+  outline: 0;
+  font-size: 15px;
+}
+.overhang-no-option,
+.overhang-yes-option {
+  min-width: 50px;
+  height: 30px;
+  border: none;
+  outline: 0;
+  border-radius: 4px;
+  font-size: 20px;
+  color: #FFF;
+  cursor: pointer;
+  margin: 0 6px;
+}
+.overhang-yes-option {
+  margin-left: 15px;
+}
+.overhang-close {
+  vertical-align: middle;
+  cursor: pointer;
+  margin-top: -4px;
+  padding-left: 13px;
+  font-size: 2.5em;
+  display: inline-block;
+  line-height: 20px;
+}
+.overhang-close:after {
+  content: "\00d7";
+}
+@media (max-width: 720px) {
+  .overhang-close {
+    font-size: 2em;
+    line-height: 14px;
+  }
+  .overhang-message {
+    font-size: 15px;
+  }
+}
+.reload {
+  font-size: 24px;
+  cursor: pointer;
+  color: #ffb683;
+  position: fixed;
+  left: 10px;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 100%;
+  border: 1px solid #ffb683;
+  text-align: center;
+  top: 10px;
+  transition: all 0.3s;
+}
+.reload:hover {
+  color: red;
+}
+#setting label {
+  font-size: 24px;
+}
+#setting textarea {
+  text-align: right;
+  direction: rtl;
+}
+#final .col-lg-6 {
+  margin-bottom: 100px;
+  padding: 30px 20px;
+  box-sizing: border-box;
+}
+#final .cls1 {
+  background: #ffe3c0;
+}
+#final .cls0 {
+  background: #c7ffe1;
+}
+#forms {
+  margin: 50px 0;
+}
+#forms label {
+  display: block;
+}
+.btnhide {
+  display: none;
+}
+.hide {
+  display: none!important;
+}
+.part_section {
+  border: 1px solid #1c82e7;
+  border-radius: 20px;
+  overflow: hidden;
+  padding: 30px ;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+.part_section input {
+  margin-bottom: 10px;
+}
+#section {
+  padding: 50px;
+  box-sizing: border-box;
+}
+#section select {
+  width: 300px;
+  margin-bottom: 10px;
+}
+#section label {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+#section .input {
+  padding: 50px 0;
+  margin-bottom: 30px;
+}
+#section .input input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+#section input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+label.error {
+  color: red!important;
+}
+.low_red {
+  background: #ff000024;
+}
+.low_green {
+  background: #00ffc924;
+}
+.sbtn {
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 5px 10px;
+  transition: all 0.3s;
+  border: 2px solid #1c89ef;
+}
+.sbtn:hover {
+  background: blue;
+  color: #fff;
+}
+.box {
+  background: #fff;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  -webkit-box-shadow: 0px 12px 26px -9px rgba(0, 0, 0, 0.32);
+  -moz-box-shadow: 0px 12px 26px -9px rgba(0, 0, 0, 0.32);
+  box-shadow: 0px 12px 26px -9px rgba(0, 0, 0, 0.32);
+}
+.box input {
+  text-align: center;
+  display: inline-block;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 15px;
+  padding: 30px 20px;
+  text-align: center;
+  box-sizing: border-box;
+  background: #fff;
+  border-radius: 10px;
+}
+table tr {
+  direction: ltr;
+}
+table tr th {
+  font-size: 14px;
+}
+table tr th span {
+  font-size: 18px;
+}
+table tbody tr td {
+  padding: 10px 0;
+}
+table tbody tr td * {
+  vertical-align: center;
+}
+table input:focus {
+  background: #d2dff7;
+}
+i.pointer {
+  transition: all 0.3s;
+  font-size: 30px;
+}
+i.pointer:hover {
+  color: orangered;
+}
+.pointer {
+  cursor: pointer;
+}
+.red {
+  color: red;
+}
+.green {
+  color: #19b455;
+}
+.transition {
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.15);
+}
+.transition:hover {
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.34);
+  -moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.34);
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.34);
+}
+#main {
+  background: #f1f7f4;
+}
+#main .sidebar {
+  padding: 10px 0px;
+  margin-bottom: 40px;
+  background: #289da6;
+  box-sizing: border-box;
+  color: #fff;
+  overflow: hidden;
+}
+#main .sidebar ul li {
+  line-height: 40px;
+  padding: 0 10px;
+  display: inline-block;
+  color: #fff;
+}
+#main .sidebar ul li span {
+  font-size: 14px;
+  cursor: pointer;
+  position: relative;
+  padding: 0 20px;
+  vertical-align: middle;
+  right: 0;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+#main .sidebar ul li i {
+  vertical-align: middle;
+  font-size: 20px;
+  text-align: center;
+  display: inline-block;
+  width: 20px;
+  padding: 0 5px;
+}
+#main .sidebar ul li:hover {
+  border-bottom: 3px solid  orangered;
+}
+#main .sidebar ul li:hover span {
+  right: 10px;
+}
+#main .sidebar ul li.active {
+  color: #3b56a6;
+}
+#main #content {
+  padding: 30px 0;
+}
+#main #content #com_table,
+#main #content #com_unit_table {
+  border-radius: 25px;
+  padding: 20px 30px;
+  box-sizing: border-box;
+}
+#main #content #com_table h1,
+#main #content #com_unit_table h1 {
+  font-size: 25px;
+  color: #3c414b;
+}
+#login {
+  height: 100%;
+  background-size: cover;
+}
+#login input {
+  background: #fff !important;
+}
+#login .loginbox {
+  background: #fff;
+  width: 400px;
+  padding: 20px 30px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #e1e1e1;
+  border-radius: 10px;
+}
+.pagination {
+  padding: 20px 0;
+}
+.pagination .pagination_deactive,
+.pagination .pagination_active {
+  cursor: pointer;
+  display: inline-block;
+  padding: 5px;
+  height: 15px;
+  text-align: center;
+  line-height: 15px;
+  border: 1px solid #00f;
+  color: #fff;
+  transition: all 0.3s;
+  border-radius: 5px;
+  background: #00f;
+}
+.pagination .pagination_deactive:hover,
+.pagination .pagination_active:hover {
+  background: #fff;
+  color: #00f;
+}
+.pagination .pagination_deactive {
+  color: #f4f4f6;
+  cursor: auto;
+  background: #2b2b2b;
+}
+@media screen and (max-width: 900px) {
+  #section input {
+    width: 100% !important;
+  }
+}
+@media screen and (max-width: 600px) {
+  .part_section {
+    padding: 30px 5px!important;
+  }
+  #section {
+    padding: 10px!important;
+  }
+}
+/*# sourceMappingURL=style.css.map */
